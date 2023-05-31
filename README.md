@@ -4,7 +4,7 @@
 # Zephyr Script
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeScript1234/ZephyrForRobloxV3.0/main/MainScript.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeScript1234/ZephyrForRobloxV3.0/main/AmbrosialLauncher.lua"))()
 ```
 
 # And Also U Can Join My Server Right Here:
