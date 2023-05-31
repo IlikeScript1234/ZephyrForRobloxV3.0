@@ -1,3 +1,8 @@
 # Hi Is Me Zephyr Owner Aka Maxlasertech
-# I have Monia as developer
-# Zephyr Currently Down Rn!
+**i have Monia or nightbed owner as my developer!**
+** hope yall have fun trolling peop- i meant use script**
+# Zephyr Script
+
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeScript1234/ZephyrForRobloxV3.0/main/MainScript.lua"))()
+```
