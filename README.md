@@ -1,6 +1,6 @@
 # Hi Is Me Zephyr Owner Aka Maxlasertech
 **i have Monia or nightbed owner as my developer!**
-** hope yall have fun trolling peop- i meant use script**
+**hope yall have fun trolling peop- i meant use script**
 # Zephyr Script
 
 ```lua
