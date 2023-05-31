@@ -6,3 +6,6 @@
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeScript1234/ZephyrForRobloxV3.0/main/MainScript.lua"))()
 ```
+
+# And Also U Can Join My Server Right Here:
+https://discord.gg/zephyrrblx
