@@ -3,14 +3,14 @@
 **hope yall have fun trolling peop- i meant use script**
 # You Can Execute Zephyr In Ambrosial !
 
-#Ambrosial PC
+# Ambrosial PC
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeScript1234/ZephyrForRobloxV3.0/main/PCAmbrosialLauncher.lua"))()
 ```
 
-#Ambrosial Mobile
+# Ambrosial Mobile
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeScript1234/ZephyrForRobloxV3.0/main/PCAmbrosialLauncher.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeScript1234/ZephyrForRobloxV3.0/main/MobileAmbrosialLauncher.lua"))()
 ```
 
 # And Also U Can Join My Server Right Here:
