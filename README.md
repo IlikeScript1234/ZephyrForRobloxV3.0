@@ -14,4 +14,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeScript1234/Zephy
 ```
 
 # And Also U Can Join My Server Right Here:
-https://discord.gg/zephyrrblx
+https://discord.gg/RA4HYdNWQx
