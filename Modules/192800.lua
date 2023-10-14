@@ -1,17 +1,14 @@
 local Library = shared.GuiLibrary
-local Combat = shared.Combat
-local Visual = shared.Visual
-local Movement = shared.Movement
-local Exploit = shared.Exploits
+local C = shared.Combat
+local V = shared.Visual
+local M = shared.Movement
+local E = shared.Exploits
 
-wow = Combat.CreateSection({Name = "Idk"})
+Combat = C.CreateSection({Name = "Combat"})
+Visual = V.CreateSection({Name = "Visual"})
+Movement = M.CreateSection({Name = "Movement"})
+Exploit = E.CreateSection({Name = "Exploit"})
 
-wow.CreateButton({
-	Name = "hi",
-	Function = function(callback)
-		print("hi")
-	end	
-})
 
 local networkownertick = tick()
 local isnetworkowner = isnetworkowner or function(part)
