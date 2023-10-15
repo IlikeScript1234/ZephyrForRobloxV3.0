@@ -22,7 +22,10 @@
         MakeFolder("Zephyr/Assets")
         MakeFolder("Zephyr/Profiles")
 
-        local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeScript1234/RayArayForRoblox.lua/main/GuiLibrary.lua", true))()
+        local UiLibrary = "https://raw.githubusercontent.com/IlikeScript1234/ZephyrForRobloxV3.0/main/GuiLibrary.lua"
+        local GuiC = game:HttpGet(UiLibrary, true)
+        MakeFile("GuiLibrary", GuiC)
+        local Library = loadfile("Zephyr/GuiLibrary.lua")()
         shared.GuiLibrary = Library
 
         local win = Library.CreateWindow({
@@ -57,14 +60,16 @@
             shared.Launcher = true
         ]]
 
+        RFile("Detect1.lua")
+
         function MainLoaded()
             local customModuleURL = "https://raw.githubusercontent.com/IlikeScript1234/ZephyrForRobloxV3.0/main/Modules/"..game.PlaceId..".lua"
             local customModuleScript = game:HttpGet(customModuleURL, true)
             if customModuleScript then
                 local success, error = pcall(function()
-                    if not isfile("Detect1.lua") then
+                    if not isfile("Detect2.lua") then
                         MakeFile("Modules/"..game.PlaceId, customModuleScript)
-                        writefile("Detect1.lua", check)
+                        writefile("Detect2.lua", check)
                     end
                     loadstring(readfile("Zephyr/Modules/".. game.PlaceId .. ".lua"))()
                 end)
@@ -85,7 +90,7 @@
 
         task.spawn(function()
             MainLoaded()
-            loadstring(readfile("Detect1.lua"))()
+            loadstring(readfile("Detect2.lua"))()
         end)
     else
         loadfile("Zephyr/Modules/".. game.PlaceId.. ".lua")()
