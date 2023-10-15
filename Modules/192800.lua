@@ -153,7 +153,6 @@ Exploit.CreateButton({
     end,
 })
 
---[[ textbox not support
 Combat.CreateTextBox({
     Name = "Kill Player",
     Function = function(txt)
@@ -161,7 +160,6 @@ Combat.CreateTextBox({
     end,
     HoverText = "killing player"
 })
-]]
 
 local destroy = Workspace.GameService.CloseBox
 Visual.CreateButton({
