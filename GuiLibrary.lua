@@ -219,6 +219,7 @@ local Library = {}
 				BindAble = false
 				RayAray:Destroy()
 				MobileBind:Destroy()
+				shared.Launcher = false
 				Notification.Send("RayAray Library", "SelfDestructed!", 3)
 			end
 		end)
@@ -634,7 +635,7 @@ local Library = {}
 			Notification.Send("RayAray", "Library Has Been Loaded", 5)
 		else
 			error("RayAray Failed To Loaded")
-			Notification.Send("RayAray", "Library Failed To Loade", 5)
+			Notification.Send("RayAray", "Library Failed To Load", 5)
 		end
 	end)
 return Library
