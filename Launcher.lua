@@ -73,7 +73,7 @@ if not shared.Launcher then
     MakeFile("Launcher", LauncherScript)
 
     function MainLoaded()
-        local customModuleURL = "https://raw.githubusercontent.com/IlikeScript1234/ZephyrForRobloxV3.0/main/Modules/"local customModuleURL = "https://raw.githubusercontent.com/IlikeScript1234/ZephyrForRobloxV3.0/main/Modules/"..game.PlaceId..".lua"
+        local customModuleURL = "https://raw.githubusercontent.com/IlikeScript1234/ZephyrForRobloxV3.0/main/Modules/"..game.PlaceId..".lua"
         local customModuleScript = game:HttpGet(customModuleURL, true)
         if customModuleScript then
             local success, error = pcall(function()
